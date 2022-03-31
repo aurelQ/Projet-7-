@@ -6,7 +6,7 @@ import pandas as pd
 from pydantic import BaseModel
 import sklearn.metrics
 import pickle
-
+ 
 # FastAPI libray
 from fastapi import FastAPI
 
