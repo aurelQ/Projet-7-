@@ -13,7 +13,7 @@ import plotly.express as px
 #Récupération des données
 with open('model/score_objects2.pkl', 'rb') as handle:
     clf_xgb_w, explainer_xgb = pickle.load(handle)  
-X_test=pd.read_csv('model/X_train_ech.csv',index_col='Unnamed: 0')
+X_test=pd.read_csv('model/X_test_ech.csv',index_col='Unnamed: 0')
 z_1=pd.read_csv('model/z_1.csv',index_col='Unnamed: 0')
 z_0=pd.read_csv('model/z_0.csv',index_col='Unnamed: 0')
 st.set_page_config(layout="wide")

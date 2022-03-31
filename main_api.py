@@ -15,7 +15,7 @@ app = FastAPI(title='Placement Analytics', version='0.24.2',
               description='Lightgbm model is used for prediction')
 
 # Récupération du jeu de données Test
-X_test=pd.read_csv('./model/X_train_ech.csv')
+X_test=pd.read_csv('./model/X_test_ech.csv')
 
 # Lecture du fichier pickle
 with open('./model/score_objects2.pkl', 'rb') as handle:
